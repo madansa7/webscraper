@@ -15,7 +15,6 @@ def home():
 def scrape():
     url = request.args.get('url')
     keyword = request.args.get('keyword')
-
     result = []
 
     try:
